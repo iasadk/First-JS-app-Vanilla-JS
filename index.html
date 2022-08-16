@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | JS</title>      
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <span class="n1">Num1:</span><input type="number" id="num1" placeholder="Enter Number" value="1">
+            <br>
+            <br>
+            <span class="n2">Num2:</span><input type="number" id="num2" placeholder="Enter Number" value="1">
+            <!-- <span class="op">Operations: </span> -->
+            <div class="operations">
+                <button class="btn add" id="add">addition</button>
+                <button class="btn sub" id="sub">subtract</button>
+                <button class="btn multiply" id="multiply">multiply</button>
+                <button class="btn divide" id="divide">divide</button>
+
+            </div>
+
+            <div class="answer">
+                <span>Answer: </span>
+                <span id="value">1</span>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
